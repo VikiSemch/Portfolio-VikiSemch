@@ -105,6 +105,10 @@ img {
 .container-fluid{
     background-color: pink;
 }
+.row{
+    margin: 0;
+    max-width: 100%;
+}
 div.footer{
 font-size: 20px;
 text-align: center;
