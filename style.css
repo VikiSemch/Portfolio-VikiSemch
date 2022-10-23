@@ -107,10 +107,13 @@ img {
 }
 .row{
         max-width: 100%;
+        padding: 0;
+        margin: 0;
 }
 div.footer{
-    max-width: 100%;
+max-width: 100%;
 font-size: 20px;
+margin: 0;
 text-align: center;
 background-color: pink;
 }
