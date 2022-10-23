@@ -109,6 +109,7 @@ img {
         max-width: 100%;
 }
 div.footer{
+    max-width: 100%;
 font-size: 20px;
 text-align: center;
 background-color: pink;
