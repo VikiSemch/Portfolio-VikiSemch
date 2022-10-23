@@ -30,7 +30,7 @@ p {
 img {
     display:block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 .wrapper{
     display: flex;
@@ -103,17 +103,8 @@ img {
 .container-fluid{
     background-color: pink;
 }
-footer{
-font-size: 15px;
-text-align: center;
-margin-top: 40px;
-background-color: pink;
-}
 div.footer{
-    background-color: pink;
-    position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 80px;
+font-size: 20px;
+text-align: center;
+background-color: pink;
 }
