@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #f751a4;
-    --secondary-color: #f5f2fe;
-    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --primary-color: pink;
+    --secondary-color: black;
+        --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -9,8 +9,14 @@ body {
 }
 
 
-h3 {
-    font-size: 24px;  
+h1,h2,h3 {
+    font-size: 24px;
+    text-align: center;  
+    margin: 30px;
+    padding: 15px;
+}
+h5{
+    margin: 155px;
 }
 
 p {
@@ -19,14 +25,18 @@ p {
     border-radius: 4px;
     font-size: 18px;
     line-height: 1.5;
-    text-align: left;
+    text-align:left;
 }
 img {
-    display: block;
+    display:block;
     margin-left: auto;
     margin-right: auto
 }
-
+.wrapper{
+    display: flex;
+        flex-direction: column;
+        max-width: 100%;
+       }
 
 .navigation-links {
     display: flex;
@@ -35,11 +45,12 @@ img {
 }
 
 .navigation-links a {
-    margin: 20px;
+    margin: 10px;
     border-radius: 4px;
-    padding: 20px 15px;
+    padding: 10px 15px;
     text-decoration: none;
     text-transform: capitalize;
+
 }
 
 .contact-link {
@@ -90,5 +101,14 @@ img {
     color: white;
 }
 .container-fluid{
+    background-color: pink;
+}
+footer{
+font-size: 15px;
+text-align: center;
+margin-top: 40px;
+background-color: pink;
+}
+div.footer{
     background-color: pink;
 }
