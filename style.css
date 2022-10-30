@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 100%;
+    max-height: 100%;
     margin: 0;
 }
 
@@ -16,10 +16,6 @@ h1,h2,h3 {
     margin: 30px;
     padding: 15px;
 }
-h5{
-    margin: 155px;
-}
-
 p {
     background: none;
     padding: 30px;
@@ -28,27 +24,35 @@ p {
     line-height: 1.5;
     text-align:left;
 }
-img {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .wrapper{
     display: flex;
         flex-direction: column;
         max-width: 100%;
-        margin: 0;
+        margin:0;
        }
+       div.container-project{
+        margin: 10px;
+        max-width: 95%;
+       }
+       div.col-md-6{
+        text-align: center;
+       }
+        div.main-container{
+            margin: 10px;
+            max-width: 95%;
+        }
+
 
 .navigation-links {
     display: flex;
-    margin-top: 40px;
+    margin-top: 50px;
     justify-content: center;
 }
 
 .navigation-links a {
     margin: 10px;
-    border-radius: 4px;
+    border-radius: 6px;
     padding: 10px 15px;
     text-decoration: none;
     text-transform: capitalize;
@@ -105,15 +109,25 @@ img {
 .container-fluid{
     background-color: pink;
 }
-.row{
-        max-width: 100%;
-        padding: 0;
-        margin: 0;
+    
+
+footer{
+    position: fixed;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        font-size: 20px;
 }
-footer {
-max-width: 100%;
-font-size: 20px;
-margin: 65px 0;
-text-align: center;
-background-color: pink;
+div.footer{
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        font-size: 20px;
+}
+img {
+    display: block;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
