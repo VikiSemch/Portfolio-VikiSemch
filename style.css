@@ -7,7 +7,14 @@
 body {
     max-height: 100%;
     margin: 0;
-    
+   
+}
+body.fon {
+    max-height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url(img/comp.jpg);
+    background-size: 100% auto;
 }
 
 
@@ -28,13 +35,13 @@ p {
     line-height: 1.5;
     text-align:left;
 }
-
 .wrapper{
     display: flex;
-        flex-direction: column;
-        min-height: 100%;
-        margin:0;
-       }
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+    
+}
        div.container-project{
         padding-top: 40px;
         margin: 10px;
@@ -144,3 +151,5 @@ div.Contact{
         left: 50%;
         top: 50%;
         margin: -100px 0 0 -150px;
+        
+}
